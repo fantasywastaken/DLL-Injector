@@ -22,21 +22,23 @@ This project is a Java-based DLL injector with a modern UI, built using Swing an
 The tool requires these libraries (automatically handled by Maven):
 
 ```xml
-<dependency>
-    <groupId>com.github.weisj</groupId>
-    <artifactId>darklaf-core</artifactId>
-    <version>3.0.2</version>
-</dependency>
-<dependency>
-    <groupId>net.java.dev.jna</groupId>
-    <artifactId>jna</artifactId>
-    <version>5.5.0</version>
-</dependency>
-<dependency>
-    <groupId>net.java.dev.jna</groupId>
-    <artifactId>jna-platform</artifactId>
-    <version>5.5.0</version>
-</dependency>
+<dependencies>
+    <dependency>
+        <groupId>com.github.weisj</groupId>
+        <artifactId>darklaf-core</artifactId>
+        <version>3.0.2</version>
+    </dependency>
+    <dependency>
+        <groupId>net.java.dev.jna</groupId>
+        <artifactId>jna</artifactId>
+        <version>5.5.0</version>
+    </dependency>
+    <dependency>
+        <groupId>net.java.dev.jna</groupId>
+        <artifactId>jna-platform</artifactId>
+        <version>5.5.0</version>
+    </dependency>
+</dependencies>
 ```
 
 ---
